@@ -25,7 +25,7 @@ $(document).ready(function () {
     console.log("varDef:" + varDef);
 
 
-    if ((name) && (age) && jokes != "choose" && cartoons != "choose" && winMac != "choose" && varDef != "choose") {
+    if ((name) || (age) && jokes != "choose" && cartoons != "choose" && winMac != "choose" && varDef != "choose") {
       $("#pascal").hide();
       $("#cPlus").hide();
       $("#jS").hide();

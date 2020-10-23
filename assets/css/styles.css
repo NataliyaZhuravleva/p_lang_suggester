@@ -25,9 +25,12 @@ h6{
   padding: 10px;
   float:right;
 }
-.response {
+.response p{
   
+  font-size: large;
+  padding: 40px;
   font-weight: bold;
+  text-align: center;
 }
 .name{
   color: red;
