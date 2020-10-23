@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-  <title>   </title>
+  <title>Programmin Language Suggester</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
 </head>
+
 <body>
   <div class="container">
-    <h1>   </h1>
-    
+    <h1>Programming Language Suggester</h1>
+    <h3>Please answer the next questions to get an advice what programming language is the best to learn for you.</h3>
 
+    <form action="formOne">
+      <div class="form-group">
+        <label for="name">Please, enter your full name:</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="age">How old are you?</label>
+        <input id="age" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="jokes">Do you understand jokes?</label>
+        <select id="jokes" class="form-control">
+          <option value="choose">--</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        
+      </div>
+
+      <div class="form-group">
+        <label for="cartoons">Do you like cartoons?</label>
+        <select id="cartoons" class="form-control">
+          <option value="choose">--</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="win_mac">What is better: Windows or Mac?</label>
+        <select id="win_mac" class="form-control">
+          <option value="choose">--</option>
+          <option value="windows">Windows</option>
+          <option value="mac">Mac</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="var">Are you enjoying when you define every variable with type of variable?</label>
+        <select id="var" class="form-control">
+          <option value="choose">--</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
     
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+
   </div>
 </body>
+
 </html>
