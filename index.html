@@ -11,22 +11,25 @@
 
 <body>
   <div class="container">
-    <h1>Programming Language Suggester</h1>
-    <h3>Instruction:</h3>
-    <h5>Please, answer the next questions to get advice what programming language is the best for you to learn <u><span class="up">first</span></u>.</h5><br>
+    <h3>Programming Language Suggester</h3>
+    <h4>Instruction:</h4>
+    <h6>Please, answer the next questions to get advice what programming language is the best for you to learn <u><span class="up">first</span></u>.</h6>
 
     <form id="formOne">
       <!--Form's questions-->
+      <div class="row">
+        <div class="col-md-6">
       <div class="form-group">
         <label for="name">Please, enter your full name:</label>
         <input id="name" class="form-control" type="text">
       </div>
-
+    </div>
+    <div class="col-md-6">
       <div class="form-group">
         <label for="age">How old are you?</label>
         <input id="age" class="form-control" type="text">
       </div>
-
+    </div>    </div>
       <div class="form-group">
         <label for="jokes">Do you understand jokes?</label>
         <select id="jokes" class="form-control">
@@ -61,13 +64,28 @@
           <option value="no">No</option>
         </select>
       </div>
-
-      <button type="submit" class="btn">Submit</button>
+      <div class="row">
+        <div class="col-md-12">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </div>
 
       <!--Results-->
       <div id=pascal>
-        <p>Dear <span class="name"></span>, you ought to study Pascal language.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img" src="assets/img/Pascal.png" alt="Pascal icon">
+            <!--width=90% height=90%>-->
+          </div>
+          <div class="col-md-6">
+            <p class="response">Dear <span class="name"></span>, you ought to study Pascal language.</p>
+          </div>
+        </div>
       </div>
+
+      <!-- <div id=pascal>
+        <p class="response">Dear <span class="name"></span>, you ought to study Pascal language.</p>
+      </div>-->
       <div id=cPlus>
         <p>Dear <span class="name"></span>, everything is serious! You ought to study C++ language.</p>
       </div>
@@ -78,7 +96,8 @@
         <p>Dear <span class="name"></span>, Mac is too complicated. You ought to study C# language.</p>
       </div>
       <div id=python class=output>
-        <p>Dear <span class="name"></span>, you do like state-of-the-art approach. You ought to study Phyton language.</p>
+        <p>Dear <span class="name"></span>, you do like state-of-the-art approach. You ought to study Phyton
+          language.</p>
       </div>
       <div id=choose>
         <p>Dear <span class="name"></span>, please, answer all the questions!</p>

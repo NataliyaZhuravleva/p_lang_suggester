@@ -1,23 +1,35 @@
 #pascal, #cPlus, #jS, #cSharp, #python, #choose {
   display:none;
 }
-h1{
+h3{
   color: #0ec2b8;
   text-align: center;
   padding: 20px;
 }
-h3{
+h4{
   text-decoration: underline;
   color: #6eecdf;
 }
-h5{
+h6{
   font-style: italic;
 }
 .up{
   text-transform: uppercase;
 }
 .btn{
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: #c7fffa;
   border-color: #0ec2b8;
+  padding: 10px;
   float:right;
+}
+.response {
+  
+  font-weight: bold;
+}
+.name{
+  color: red;
+  font-weight: bold;
 }
