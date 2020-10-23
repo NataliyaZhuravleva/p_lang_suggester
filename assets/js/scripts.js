@@ -13,6 +13,8 @@ $(document).ready(function () {
     const cartoons = $("select#cartoons").val();
     const winMac = $("select#win_mac").val();
     const varDef = $("select#var_def").val();
+    
+    $(".name").text(name);
 
     //for degugging
     console.log("name:" + name);
@@ -21,6 +23,7 @@ $(document).ready(function () {
     console.log("cartoons:" + cartoons);
     console.log("winMac:" + winMac);
     console.log("varDef:" + varDef);
+    
 
 if ((name) && (age) && jokes != "choose" && cartoons !="choose" && winMac != "choose" && varDef !="choose"){
   $("#pascal").hide();
@@ -28,6 +31,7 @@ if ((name) && (age) && jokes != "choose" && cartoons !="choose" && winMac != "ch
   $("#jS").hide();
   $("#cSharp").hide();
   $('#python').hide();
+  $('#choose').hide();
     if (age >= 65) {
       $("#pascal").show();
     } else if (jokes === 'no') {
