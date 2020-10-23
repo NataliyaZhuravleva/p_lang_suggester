@@ -13,98 +13,113 @@
   <div class="container">
     <h3>Programming Language Suggester</h3>
     <h4>Instruction:</h4>
-    <h6>Please, answer the next questions to get advice what programming language is the best for you to learn <u><span class="up">first</span></u>.</h6>
+    <h6>Please, answer the next questions to get advice what programming language is the best for you to learn <u><span
+          class="up">first</span></u>.</h6>
 
     <form id="formOne">
       <!--Form's questions-->
       <div class="row">
         <div class="col-md-6">
-      <div class="form-group">
-        <label for="name">Please, enter your full name:</label>
-        <input id="name" class="form-control" type="text">
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="form-group">
-        <label for="age">How old are you?</label>
-        <input id="age" class="form-control" type="text">
-      </div>
-    </div>    </div>
-      <div class="form-group">
-        <label for="jokes">Do you understand jokes?</label>
-        <select id="jokes" class="form-control">
-          <option value="choose">--</option>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="cartoons">Do you like cartoons?</label>
-        <select id="cartoons" class="form-control">
-          <option value="choose">--</option>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="win_mac">What is better: Windows or Mac?</label>
-        <select id="win_mac" class="form-control">
-          <option value="choose">--</option>
-          <option value="windows">Windows</option>
-          <option value="mac">Mac</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="var_def">Are you enjoying when you define every variable with type of variable?</label>
-        <select id="var_def" class="form-control">
-          <option value="choose">--</option>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
-        </select>
+          <div class="form-group">
+            <label for="name">Please, enter your full name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="age">How old are you?</label>
+            <input id="age" class="form-control" type="text">
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <button type="submit" class="btn">Submit</button>
-        </div>
-      </div>
-
-      <!--Results-->
-      <div id=pascal>
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img" src="assets/img/Pascal.png" alt="Pascal icon">
-            <!--width=90% height=90%>-->
-          </div>
-          <div class="col-md-6">
-            <p class="response">Dear <span class="name"></span>, you ought to study Pascal language.</p>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="jokes">Do you understand jokes?</label>
+            <select id="jokes" class="form-control">
+              <option value="choose">--</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
           </div>
         </div>
-      </div>
 
-      <!-- <div id=pascal>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="cartoons">Do you like cartoons?</label>
+            <select id="cartoons" class="form-control">
+              <option value="choose">--</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="win_mac">What is better: Windows or Mac?</label>
+            <select id="win_mac" class="form-control">
+              <option value="choose">--</option>
+              <option value="windows">Windows</option>
+              <option value="mac">Mac</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+        <div class="form-group">
+          <label for="var_def">Are you enjoying when you define every variable with type of variable?</label>
+          <select id="var_def" class="form-control">
+            <option value="choose">--</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button type="submit" class="btn">Submit</button>
+    </div>
+  </div>
+
+  <!--Results-->
+  <div id=pascal>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img" src="assets/img/Pascal.png" alt="Pascal icon">
+        <!--width=90% height=90%>-->
+      </div>
+      <div class="col-md-6">
+        <p class="response">Dear <span class="name"></span>, you ought to study Pascal language.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id=pascal>
         <p class="response">Dear <span class="name"></span>, you ought to study Pascal language.</p>
       </div>-->
-      <div id=cPlus>
-        <p>Dear <span class="name"></span>, everything is serious! You ought to study C++ language.</p>
-      </div>
-      <div id=jS class=output>
-        <p>Dear <span class="name"></span>, graphics are our everything. You ought to study Javascript language.</p>
-      </div>
-      <div id=cSharp class=output>
-        <p>Dear <span class="name"></span>, Mac is too complicated. You ought to study C# language.</p>
-      </div>
-      <div id=python class=output>
-        <p>Dear <span class="name"></span>, you do like state-of-the-art approach. You ought to study Phyton
-          language.</p>
-      </div>
-      <div id=choose>
-        <p>Dear <span class="name"></span>, please, answer all the questions!</p>
-      </div>
+  <div id=cPlus>
+    <p>Dear <span class="name"></span>, everything is serious! You ought to study C++ language.</p>
+  </div>
+  <div id=jS class=output>
+    <p>Dear <span class="name"></span>, graphics are our everything. You ought to study Javascript language.</p>
+  </div>
+  <div id=cSharp class=output>
+    <p>Dear <span class="name"></span>, Mac is too complicated. You ought to study C# language.</p>
+  </div>
+  <div id=python class=output>
+    <p>Dear <span class="name"></span>, you do like state-of-the-art approach. You ought to study Phyton
+      language.</p>
+  </div>
+  <div id=choose>
+    <p>Dear <span class="name"></span>, please, answer all the questions!</p>
+  </div>
 
 
-    </form>
+  </form>
 
 
 
