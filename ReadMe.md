@@ -15,9 +15,9 @@ _Visit [Programming Language Suggester webpage](https://nataliyazhuravleva.githu
 
 ### <span style="color:#c4f4ef">Open Locally</span>
 1. _Navigate to my [Programming Language Suggester repo](https://github.com/NataliyaZhuravleva/p_lang_suggester) at https://github.com/NataliyaZhuravleva/p_lang_suggester_ to view the project files and commits.
-2. Click on the green button labeled "Code" to copy repository URL.
-3. Clone the repository to your local machine by opening your machine terminal and using the command "git clone https://github.com/NataliyaZhuravleva/p_lang_suggester".
-4. Click on index.html file to view application.
+2. _Click on the green button labeled "Code"_ to copy repository URL.
+3. _Clone the repository to your local machine_ by opening your machine terminal and using the command "git clone https://github.com/NataliyaZhuravleva/p_lang_suggester".
+4. _Click on index.html file_ to view application.
 
 
 
@@ -43,6 +43,6 @@ _If you have any questions, ideas or concerns, please, contact me at [natalindri
 
 ### License
 
-*This software is licensed under the MIT license*
+*This software is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license*
 
 Copyright (c) 2020 **_Nataliya Zhuravleva_**
